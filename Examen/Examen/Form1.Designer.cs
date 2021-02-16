@@ -34,11 +34,11 @@
             this.lblapellidomaterno = new System.Windows.Forms.Label();
             this.abltelefonofijo = new System.Windows.Forms.Label();
             this.abltelefonomovil = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtbxnombre = new System.Windows.Forms.TextBox();
+            this.txtbxapellidopaterno = new System.Windows.Forms.TextBox();
+            this.txtbxapellidomaterno = new System.Windows.Forms.TextBox();
+            this.txtbxtelefonofijo = new System.Windows.Forms.TextBox();
+            this.txtbxtelefonomovil = new System.Windows.Forms.TextBox();
             this.grpbxgenero = new System.Windows.Forms.GroupBox();
             this.grpbxtipo = new System.Windows.Forms.GroupBox();
             this.rdbtnm = new System.Windows.Forms.RadioButton();
@@ -54,22 +54,48 @@
             this.chboxserviosocial = new System.Windows.Forms.CheckBox();
             this.cmbboxcarreras = new System.Windows.Forms.ComboBox();
             this.cmbbxsemestre = new System.Windows.Forms.ComboBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtbxpromedio = new System.Windows.Forms.TextBox();
+            this.grpbxdocumentosentregados = new System.Windows.Forms.GroupBox();
+            this.chckbxSolicitudpracticasprofecionales = new System.Windows.Forms.CheckBox();
+            this.chckbxcartacompromiso = new System.Windows.Forms.CheckBox();
+            this.chckbxcv = new System.Windows.Forms.CheckBox();
+            this.chckbxentrevista = new System.Windows.Forms.CheckBox();
+            this.chckbxempreasas = new System.Windows.Forms.CheckBox();
+            this.chckbxaceptacion = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.chckbxcartaprecentacion = new System.Windows.Forms.CheckBox();
+            this.chckbxcartaliberacion = new System.Windows.Forms.CheckBox();
+            this.grpbxdatosempresa = new System.Windows.Forms.GroupBox();
+            this.lstbxempresas = new System.Windows.Forms.ListBox();
+            this.lblcontacto = new System.Windows.Forms.Label();
+            this.lblasesor = new System.Windows.Forms.Label();
+            this.lblemail = new System.Windows.Forms.Label();
+            this.ablmovil = new System.Windows.Forms.Label();
+            this.ablfechadeinicio = new System.Windows.Forms.Label();
+            this.lblfechatermino = new System.Windows.Forms.Label();
+            this.txtbxcontacto = new System.Windows.Forms.TextBox();
+            this.txtbxasesor = new System.Windows.Forms.TextBox();
+            this.txtbxemail = new System.Windows.Forms.TextBox();
+            this.txtbxtelefonomovilasesor = new System.Windows.Forms.TextBox();
+            this.dttmpckrfechainicio = new System.Windows.Forms.DateTimePicker();
+            this.dttmpckrfecahtermino = new System.Windows.Forms.DateTimePicker();
             this.grpbxdatospersonales.SuspendLayout();
             this.grpbxgenero.SuspendLayout();
             this.grpbxtipo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.grpbxfoto.SuspendLayout();
             this.grpbxdatoscarrera.SuspendLayout();
+            this.grpbxdocumentosentregados.SuspendLayout();
+            this.grpbxdatosempresa.SuspendLayout();
             this.SuspendLayout();
             // 
             // grpbxdatospersonales
             // 
-            this.grpbxdatospersonales.Controls.Add(this.textBox5);
-            this.grpbxdatospersonales.Controls.Add(this.textBox4);
-            this.grpbxdatospersonales.Controls.Add(this.textBox3);
-            this.grpbxdatospersonales.Controls.Add(this.textBox2);
-            this.grpbxdatospersonales.Controls.Add(this.textBox1);
+            this.grpbxdatospersonales.Controls.Add(this.txtbxtelefonomovil);
+            this.grpbxdatospersonales.Controls.Add(this.txtbxtelefonofijo);
+            this.grpbxdatospersonales.Controls.Add(this.txtbxapellidomaterno);
+            this.grpbxdatospersonales.Controls.Add(this.txtbxapellidopaterno);
+            this.grpbxdatospersonales.Controls.Add(this.txtbxnombre);
             this.grpbxdatospersonales.Controls.Add(this.lblapellidopaterno);
             this.grpbxdatospersonales.Controls.Add(this.lblapellidomaterno);
             this.grpbxdatospersonales.Controls.Add(this.abltelefonofijo);
@@ -127,40 +153,40 @@
             this.abltelefonomovil.TabIndex = 5;
             this.abltelefonomovil.Text = "Teléfono Móvil:";
             // 
-            // textBox1
+            // txtbxnombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(184, 28);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(333, 22);
-            this.textBox1.TabIndex = 6;
+            this.txtbxnombre.Location = new System.Drawing.Point(184, 28);
+            this.txtbxnombre.Name = "txtbxnombre";
+            this.txtbxnombre.Size = new System.Drawing.Size(333, 22);
+            this.txtbxnombre.TabIndex = 6;
             // 
-            // textBox2
+            // txtbxapellidopaterno
             // 
-            this.textBox2.Location = new System.Drawing.Point(184, 66);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(333, 22);
-            this.textBox2.TabIndex = 7;
+            this.txtbxapellidopaterno.Location = new System.Drawing.Point(184, 66);
+            this.txtbxapellidopaterno.Name = "txtbxapellidopaterno";
+            this.txtbxapellidopaterno.Size = new System.Drawing.Size(333, 22);
+            this.txtbxapellidopaterno.TabIndex = 7;
             // 
-            // textBox3
+            // txtbxapellidomaterno
             // 
-            this.textBox3.Location = new System.Drawing.Point(184, 108);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(333, 22);
-            this.textBox3.TabIndex = 8;
+            this.txtbxapellidomaterno.Location = new System.Drawing.Point(184, 108);
+            this.txtbxapellidomaterno.Name = "txtbxapellidomaterno";
+            this.txtbxapellidomaterno.Size = new System.Drawing.Size(333, 22);
+            this.txtbxapellidomaterno.TabIndex = 8;
             // 
-            // textBox4
+            // txtbxtelefonofijo
             // 
-            this.textBox4.Location = new System.Drawing.Point(184, 153);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(333, 22);
-            this.textBox4.TabIndex = 9;
+            this.txtbxtelefonofijo.Location = new System.Drawing.Point(184, 153);
+            this.txtbxtelefonofijo.Name = "txtbxtelefonofijo";
+            this.txtbxtelefonofijo.Size = new System.Drawing.Size(333, 22);
+            this.txtbxtelefonofijo.TabIndex = 9;
             // 
-            // textBox5
+            // txtbxtelefonomovil
             // 
-            this.textBox5.Location = new System.Drawing.Point(184, 195);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(333, 22);
-            this.textBox5.TabIndex = 10;
+            this.txtbxtelefonomovil.Location = new System.Drawing.Point(184, 195);
+            this.txtbxtelefonomovil.Name = "txtbxtelefonomovil";
+            this.txtbxtelefonomovil.Size = new System.Drawing.Size(333, 22);
+            this.txtbxtelefonomovil.TabIndex = 10;
             // 
             // grpbxgenero
             // 
@@ -250,7 +276,7 @@
             // 
             // grpbxdatoscarrera
             // 
-            this.grpbxdatoscarrera.Controls.Add(this.textBox6);
+            this.grpbxdatoscarrera.Controls.Add(this.txtbxpromedio);
             this.grpbxdatoscarrera.Controls.Add(this.cmbbxsemestre);
             this.grpbxdatoscarrera.Controls.Add(this.cmbboxcarreras);
             this.grpbxdatoscarrera.Controls.Add(this.chboxserviosocial);
@@ -331,18 +357,272 @@
             this.cmbbxsemestre.Size = new System.Drawing.Size(588, 24);
             this.cmbbxsemestre.TabIndex = 9;
             // 
-            // textBox6
+            // txtbxpromedio
             // 
-            this.textBox6.Location = new System.Drawing.Point(184, 96);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(229, 22);
-            this.textBox6.TabIndex = 10;
+            this.txtbxpromedio.Location = new System.Drawing.Point(184, 96);
+            this.txtbxpromedio.Name = "txtbxpromedio";
+            this.txtbxpromedio.Size = new System.Drawing.Size(229, 22);
+            this.txtbxpromedio.TabIndex = 10;
+            // 
+            // grpbxdocumentosentregados
+            // 
+            this.grpbxdocumentosentregados.Controls.Add(this.chckbxcartaliberacion);
+            this.grpbxdocumentosentregados.Controls.Add(this.chckbxcartaprecentacion);
+            this.grpbxdocumentosentregados.Controls.Add(this.checkBox7);
+            this.grpbxdocumentosentregados.Controls.Add(this.chckbxaceptacion);
+            this.grpbxdocumentosentregados.Controls.Add(this.chckbxempreasas);
+            this.grpbxdocumentosentregados.Controls.Add(this.chckbxentrevista);
+            this.grpbxdocumentosentregados.Controls.Add(this.chckbxcv);
+            this.grpbxdocumentosentregados.Controls.Add(this.chckbxcartacompromiso);
+            this.grpbxdocumentosentregados.Controls.Add(this.chckbxSolicitudpracticasprofecionales);
+            this.grpbxdocumentosentregados.Location = new System.Drawing.Point(12, 395);
+            this.grpbxdocumentosentregados.Name = "grpbxdocumentosentregados";
+            this.grpbxdocumentosentregados.Size = new System.Drawing.Size(779, 112);
+            this.grpbxdocumentosentregados.TabIndex = 6;
+            this.grpbxdocumentosentregados.TabStop = false;
+            this.grpbxdocumentosentregados.Text = "Documentos entregados";
+            // 
+            // chckbxSolicitudpracticasprofecionales
+            // 
+            this.chckbxSolicitudpracticasprofecionales.AutoSize = true;
+            this.chckbxSolicitudpracticasprofecionales.Location = new System.Drawing.Point(6, 21);
+            this.chckbxSolicitudpracticasprofecionales.Name = "chckbxSolicitudpracticasprofecionales";
+            this.chckbxSolicitudpracticasprofecionales.Size = new System.Drawing.Size(233, 21);
+            this.chckbxSolicitudpracticasprofecionales.TabIndex = 0;
+            this.chckbxSolicitudpracticasprofecionales.Text = "Solicitud prácticas profecionales";
+            this.chckbxSolicitudpracticasprofecionales.UseVisualStyleBackColor = true;
+            // 
+            // chckbxcartacompromiso
+            // 
+            this.chckbxcartacompromiso.AutoSize = true;
+            this.chckbxcartacompromiso.Location = new System.Drawing.Point(6, 48);
+            this.chckbxcartacompromiso.Name = "chckbxcartacompromiso";
+            this.chckbxcartacompromiso.Size = new System.Drawing.Size(144, 21);
+            this.chckbxcartacompromiso.TabIndex = 1;
+            this.chckbxcartacompromiso.Text = "Carta compromiso";
+            this.chckbxcartacompromiso.UseVisualStyleBackColor = true;
+            // 
+            // chckbxcv
+            // 
+            this.chckbxcv.AutoSize = true;
+            this.chckbxcv.Location = new System.Drawing.Point(6, 75);
+            this.chckbxcv.Name = "chckbxcv";
+            this.chckbxcv.Size = new System.Drawing.Size(48, 21);
+            this.chckbxcv.TabIndex = 2;
+            this.chckbxcv.Text = "CV";
+            this.chckbxcv.UseVisualStyleBackColor = true;
+            // 
+            // chckbxentrevista
+            // 
+            this.chckbxentrevista.AutoSize = true;
+            this.chckbxentrevista.Location = new System.Drawing.Point(304, 21);
+            this.chckbxentrevista.Name = "chckbxentrevista";
+            this.chckbxentrevista.Size = new System.Drawing.Size(213, 21);
+            this.chckbxentrevista.TabIndex = 3;
+            this.chckbxentrevista.Text = "Entrevista por competencias ";
+            this.chckbxentrevista.UseVisualStyleBackColor = true;
+            // 
+            // chckbxempreasas
+            // 
+            this.chckbxempreasas.AutoSize = true;
+            this.chckbxempreasas.Location = new System.Drawing.Point(304, 48);
+            this.chckbxempreasas.Name = "chckbxempreasas";
+            this.chckbxempreasas.Size = new System.Drawing.Size(177, 21);
+            this.chckbxempreasas.TabIndex = 4;
+            this.chckbxempreasas.Text = "Seleccion de empresas";
+            this.chckbxempreasas.UseVisualStyleBackColor = true;
+            // 
+            // chckbxaceptacion
+            // 
+            this.chckbxaceptacion.AutoSize = true;
+            this.chckbxaceptacion.Location = new System.Drawing.Point(304, 75);
+            this.chckbxaceptacion.Name = "chckbxaceptacion";
+            this.chckbxaceptacion.Size = new System.Drawing.Size(165, 21);
+            this.chckbxaceptacion.TabIndex = 5;
+            this.chckbxaceptacion.Text = " Carta de aceptación ";
+            this.chckbxaceptacion.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(574, 21);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(198, 21);
+            this.checkBox7.TabIndex = 6;
+            this.checkBox7.Text = "Seguro de gastos médicos";
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // chckbxcartaprecentacion
+            // 
+            this.chckbxcartaprecentacion.AutoSize = true;
+            this.chckbxcartaprecentacion.Location = new System.Drawing.Point(574, 48);
+            this.chckbxcartaprecentacion.Name = "chckbxcartaprecentacion";
+            this.chckbxcartaprecentacion.Size = new System.Drawing.Size(170, 21);
+            this.chckbxcartaprecentacion.TabIndex = 7;
+            this.chckbxcartaprecentacion.Text = "Carta de precentacion";
+            this.chckbxcartaprecentacion.UseVisualStyleBackColor = true;
+            // 
+            // chckbxcartaliberacion
+            // 
+            this.chckbxcartaliberacion.AutoSize = true;
+            this.chckbxcartaliberacion.Location = new System.Drawing.Point(574, 75);
+            this.chckbxcartaliberacion.Name = "chckbxcartaliberacion";
+            this.chckbxcartaliberacion.Size = new System.Drawing.Size(133, 21);
+            this.chckbxcartaliberacion.TabIndex = 8;
+            this.chckbxcartaliberacion.Text = "Carta liberación ";
+            this.chckbxcartaliberacion.UseVisualStyleBackColor = true;
+            // 
+            // grpbxdatosempresa
+            // 
+            this.grpbxdatosempresa.Controls.Add(this.dttmpckrfecahtermino);
+            this.grpbxdatosempresa.Controls.Add(this.dttmpckrfechainicio);
+            this.grpbxdatosempresa.Controls.Add(this.txtbxtelefonomovilasesor);
+            this.grpbxdatosempresa.Controls.Add(this.txtbxemail);
+            this.grpbxdatosempresa.Controls.Add(this.txtbxasesor);
+            this.grpbxdatosempresa.Controls.Add(this.txtbxcontacto);
+            this.grpbxdatosempresa.Controls.Add(this.lblfechatermino);
+            this.grpbxdatosempresa.Controls.Add(this.ablfechadeinicio);
+            this.grpbxdatosempresa.Controls.Add(this.ablmovil);
+            this.grpbxdatosempresa.Controls.Add(this.lblemail);
+            this.grpbxdatosempresa.Controls.Add(this.lblasesor);
+            this.grpbxdatosempresa.Controls.Add(this.lblcontacto);
+            this.grpbxdatosempresa.Controls.Add(this.lstbxempresas);
+            this.grpbxdatosempresa.Location = new System.Drawing.Point(12, 513);
+            this.grpbxdatosempresa.Name = "grpbxdatosempresa";
+            this.grpbxdatosempresa.Size = new System.Drawing.Size(778, 209);
+            this.grpbxdatosempresa.TabIndex = 7;
+            this.grpbxdatosempresa.TabStop = false;
+            this.grpbxdatosempresa.Text = "Datos Empresa";
+            // 
+            // lstbxempresas
+            // 
+            this.lstbxempresas.FormattingEnabled = true;
+            this.lstbxempresas.ItemHeight = 16;
+            this.lstbxempresas.Items.AddRange(new object[] {
+            "BMW",
+            "Mercedes Benz",
+            "Chevrolet",
+            "Audi",
+            "VW",
+            "Mazda",
+            "Kia",
+            "Ford",
+            "Hyundai",
+            "Suzuki",
+            "Honda",
+            "Ferrari",
+            "McLaren",
+            "Lamborghini",
+            "Porsche",
+            "Maserati"});
+            this.lstbxempresas.Location = new System.Drawing.Point(9, 21);
+            this.lstbxempresas.Name = "lstbxempresas";
+            this.lstbxempresas.Size = new System.Drawing.Size(167, 180);
+            this.lstbxempresas.TabIndex = 0;
+            // 
+            // lblcontacto
+            // 
+            this.lblcontacto.AutoSize = true;
+            this.lblcontacto.Location = new System.Drawing.Point(342, 21);
+            this.lblcontacto.Name = "lblcontacto";
+            this.lblcontacto.Size = new System.Drawing.Size(68, 17);
+            this.lblcontacto.TabIndex = 8;
+            this.lblcontacto.Text = "Contacto:";
+            // 
+            // lblasesor
+            // 
+            this.lblasesor.AutoSize = true;
+            this.lblasesor.Location = new System.Drawing.Point(354, 52);
+            this.lblasesor.Name = "lblasesor";
+            this.lblasesor.Size = new System.Drawing.Size(56, 17);
+            this.lblasesor.TabIndex = 9;
+            this.lblasesor.Text = "Asesor:";
+            // 
+            // lblemail
+            // 
+            this.lblemail.AutoSize = true;
+            this.lblemail.Location = new System.Drawing.Point(354, 81);
+            this.lblemail.Name = "lblemail";
+            this.lblemail.Size = new System.Drawing.Size(51, 17);
+            this.lblemail.TabIndex = 10;
+            this.lblemail.Text = "E-mail:";
+            // 
+            // ablmovil
+            // 
+            this.ablmovil.AutoSize = true;
+            this.ablmovil.Location = new System.Drawing.Point(253, 108);
+            this.ablmovil.Name = "ablmovil";
+            this.ablmovil.Size = new System.Drawing.Size(152, 17);
+            this.ablmovil.TabIndex = 11;
+            this.ablmovil.Text = "Teléfono Móvil Asesor:";
+            // 
+            // ablfechadeinicio
+            // 
+            this.ablfechadeinicio.AutoSize = true;
+            this.ablfechadeinicio.Location = new System.Drawing.Point(383, 149);
+            this.ablfechadeinicio.Name = "ablfechadeinicio";
+            this.ablfechadeinicio.Size = new System.Drawing.Size(87, 17);
+            this.ablfechadeinicio.TabIndex = 12;
+            this.ablfechadeinicio.Text = "Fecha inicio:";
+            // 
+            // lblfechatermino
+            // 
+            this.lblfechatermino.AutoSize = true;
+            this.lblfechatermino.Location = new System.Drawing.Point(371, 184);
+            this.lblfechatermino.Name = "lblfechatermino";
+            this.lblfechatermino.Size = new System.Drawing.Size(102, 17);
+            this.lblfechatermino.TabIndex = 13;
+            this.lblfechatermino.Text = "Fecha termino:";
+            // 
+            // txtbxcontacto
+            // 
+            this.txtbxcontacto.Location = new System.Drawing.Point(423, 18);
+            this.txtbxcontacto.Name = "txtbxcontacto";
+            this.txtbxcontacto.Size = new System.Drawing.Size(349, 22);
+            this.txtbxcontacto.TabIndex = 14;
+            // 
+            // txtbxasesor
+            // 
+            this.txtbxasesor.Location = new System.Drawing.Point(423, 49);
+            this.txtbxasesor.Name = "txtbxasesor";
+            this.txtbxasesor.Size = new System.Drawing.Size(349, 22);
+            this.txtbxasesor.TabIndex = 15;
+            // 
+            // txtbxemail
+            // 
+            this.txtbxemail.Location = new System.Drawing.Point(423, 78);
+            this.txtbxemail.Name = "txtbxemail";
+            this.txtbxemail.Size = new System.Drawing.Size(349, 22);
+            this.txtbxemail.TabIndex = 16;
+            // 
+            // txtbxtelefonomovilasesor
+            // 
+            this.txtbxtelefonomovilasesor.Location = new System.Drawing.Point(423, 108);
+            this.txtbxtelefonomovilasesor.Name = "txtbxtelefonomovilasesor";
+            this.txtbxtelefonomovilasesor.Size = new System.Drawing.Size(349, 22);
+            this.txtbxtelefonomovilasesor.TabIndex = 17;
+            // 
+            // dttmpckrfechainicio
+            // 
+            this.dttmpckrfechainicio.Location = new System.Drawing.Point(495, 149);
+            this.dttmpckrfechainicio.Name = "dttmpckrfechainicio";
+            this.dttmpckrfechainicio.Size = new System.Drawing.Size(268, 22);
+            this.dttmpckrfechainicio.TabIndex = 8;
+            // 
+            // dttmpckrfecahtermino
+            // 
+            this.dttmpckrfecahtermino.Location = new System.Drawing.Point(495, 181);
+            this.dttmpckrfecahtermino.Name = "dttmpckrfecahtermino";
+            this.dttmpckrfecahtermino.Size = new System.Drawing.Size(268, 22);
+            this.dttmpckrfecahtermino.TabIndex = 18;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(809, 775);
+            this.ClientSize = new System.Drawing.Size(821, 775);
+            this.Controls.Add(this.grpbxdatosempresa);
+            this.Controls.Add(this.grpbxdocumentosentregados);
             this.Controls.Add(this.grpbxdatoscarrera);
             this.Controls.Add(this.grpbxfoto);
             this.Controls.Add(this.grpbxtipo);
@@ -361,6 +641,10 @@
             this.grpbxfoto.ResumeLayout(false);
             this.grpbxdatoscarrera.ResumeLayout(false);
             this.grpbxdatoscarrera.PerformLayout();
+            this.grpbxdocumentosentregados.ResumeLayout(false);
+            this.grpbxdocumentosentregados.PerformLayout();
+            this.grpbxdatosempresa.ResumeLayout(false);
+            this.grpbxdatosempresa.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -368,11 +652,11 @@
         #endregion
 
         private System.Windows.Forms.GroupBox grpbxdatospersonales;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtbxtelefonomovil;
+        private System.Windows.Forms.TextBox txtbxtelefonofijo;
+        private System.Windows.Forms.TextBox txtbxapellidomaterno;
+        private System.Windows.Forms.TextBox txtbxapellidopaterno;
+        private System.Windows.Forms.TextBox txtbxnombre;
         private System.Windows.Forms.Label lblapellidopaterno;
         private System.Windows.Forms.Label lblapellidomaterno;
         private System.Windows.Forms.Label abltelefonofijo;
@@ -392,8 +676,32 @@
         private System.Windows.Forms.Label lblsemestre;
         private System.Windows.Forms.Label lblpromedio;
         private System.Windows.Forms.Label lblcarrera;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtbxpromedio;
         private System.Windows.Forms.ComboBox cmbbxsemestre;
+        private System.Windows.Forms.GroupBox grpbxdocumentosentregados;
+        private System.Windows.Forms.CheckBox chckbxcartaliberacion;
+        private System.Windows.Forms.CheckBox chckbxcartaprecentacion;
+        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.CheckBox chckbxaceptacion;
+        private System.Windows.Forms.CheckBox chckbxempreasas;
+        private System.Windows.Forms.CheckBox chckbxentrevista;
+        private System.Windows.Forms.CheckBox chckbxcv;
+        private System.Windows.Forms.CheckBox chckbxcartacompromiso;
+        private System.Windows.Forms.CheckBox chckbxSolicitudpracticasprofecionales;
+        private System.Windows.Forms.GroupBox grpbxdatosempresa;
+        private System.Windows.Forms.TextBox txtbxtelefonomovilasesor;
+        private System.Windows.Forms.TextBox txtbxemail;
+        private System.Windows.Forms.TextBox txtbxasesor;
+        private System.Windows.Forms.TextBox txtbxcontacto;
+        private System.Windows.Forms.Label lblfechatermino;
+        private System.Windows.Forms.Label ablfechadeinicio;
+        private System.Windows.Forms.Label ablmovil;
+        private System.Windows.Forms.Label lblemail;
+        private System.Windows.Forms.Label lblasesor;
+        private System.Windows.Forms.Label lblcontacto;
+        private System.Windows.Forms.ListBox lstbxempresas;
+        private System.Windows.Forms.DateTimePicker dttmpckrfecahtermino;
+        private System.Windows.Forms.DateTimePicker dttmpckrfechainicio;
     }
 }
 
